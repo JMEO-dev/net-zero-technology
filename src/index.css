@@ -53,6 +53,21 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Solar theme colors */
+    --solar-50: 60 100% 98%;
+    --solar-100: 60 100% 95%;
+    --solar-300: 48 100% 70%;
+    --solar-400: 43 100% 65%;
+    --solar-600: 38 100% 50%;
+    --solar-900: 25 95% 15%;
+    
+    /* Solar gradients */
+    --gradient-solar: linear-gradient(135deg, hsl(var(--solar-600)), hsl(var(--solar-400)));
+    
+    /* Enhanced shadows */
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--solar-600) / 0.1);
+    --shadow-glow: 0 0 30px hsl(var(--solar-600) / 0.3);
   }
 
   .dark {
@@ -91,6 +106,14 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Solar theme colors for dark mode */
+    --solar-50: 25 20% 8%;
+    --solar-100: 25 25% 12%;
+    --solar-300: 48 80% 60%;
+    --solar-400: 43 85% 65%;
+    --solar-600: 38 90% 55%;
+    --solar-900: 60 100% 85%;
   }
 }
 
