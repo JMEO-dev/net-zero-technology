@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import Logo from '@/assets/net-zero-logo.png';
 
 const Navigation = () => {
   const location = useLocation();
@@ -21,8 +21,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-solar rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">N</span>
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+                <img
+                src={Logo}
+                alt="Net Zero"
+                className="max-w-sm w-full  "
+            />
             </div>
             <div>
               <span className="font-bold text-lg text-foreground">Net Zero</span>
@@ -49,7 +53,7 @@ const Navigation = () => {
 
           {/* Contact Button */}
           <Button variant="solar" size="sm" asChild>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/about/contact">Contact Us</Link>
           </Button>
         </div>
       </div>

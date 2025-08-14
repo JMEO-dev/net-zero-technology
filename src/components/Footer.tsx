@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import Logo from '@/assets/net-zero-logo.png';
 
 const Footer = () => {
   return (
@@ -10,8 +10,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-solar rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">N</span>
+              <div className="w-10 h-10 flex items-center justify-center">
+                       <img
+                src={Logo}
+                alt="Net Zero"
+                className="max-w-sm w-full  "
+            />
               </div>
               <div>
                 <span className="font-bold text-lg">Net Zero</span>
@@ -37,8 +41,8 @@ const Footer = () => {
               <li><Link to="/about" className="hover:text-solar-400">About Us</Link></li>
               <li><Link to="/services" className="hover:text-solar-400">Our Services</Link></li>
               <li><Link to="/projects" className="hover:text-solar-400">Our Projects</Link></li>
-              <li><Link to="/team" className="hover:text-solar-400">Our Team</Link></li>
-              <li><Link to="/contact" className="hover:text-solar-400">Contact Us</Link></li>
+              <li><Link to="/about/team" className="hover:text-solar-400">Our Team</Link></li>
+              <li><Link to="/about/contact" className="hover:text-solar-400">Contact Us</Link></li>
             </ul>
           </div>
 
