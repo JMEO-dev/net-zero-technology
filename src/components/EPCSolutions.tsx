@@ -3,7 +3,7 @@ import EPCSolutionImage from '@/assets/epc-solutions.png';
 
 const EPCSolutions = () => {
     return (
-        <section className=" flex flex-col-reverse md:flex-row lg:flex-row p-16">
+        <section className=" flex flex-col-reverse md:flex-row lg:flex-row px-4 md:px-32 lg:px-32 py-16">
             <div className="container mx-auto px-4 flex flex-col justify-center">
                 <h2 className="text-3xl font-bold mb-4 text-solar-900">OUR EPC SOLUTIONS</h2>
                     <ol>

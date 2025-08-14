@@ -9,8 +9,9 @@ import HeroSecondary from '@/components/HeroSecondary';
 import { ContactUsPath } from '@/data/paths';
 import CTA from '@/components/CTA';
 import Partners from '@/components/Partners';
-
+import { CompanyBasicInfo } from '@/data/basicInfo';
 const Contact = () => {
+ 
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -18,7 +19,7 @@ const Contact = () => {
 
       <HeroSecondary paths={ContactUsPath} title='Contact Us' />
 
-      <section className="py-16 bg-background">
+      <section className="px-4 md:px-32 lg:px-32 py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-4 text-foreground">Contact Us</h1>
@@ -45,7 +46,7 @@ const Contact = () => {
                   <Phone className="w-8 h-8 text-solar-600" />
                   <div>
                     <h3 className="font-bold text-foreground">Phone</h3>
-                    <p className="text-muted-foreground">+8801626860701</p>
+                    <p className="text-muted-foreground">{CompanyBasicInfo.phone}</p>
                   </div>
                 </div>
               </Card>
@@ -55,7 +56,7 @@ const Contact = () => {
                   <Mail className="w-8 h-8 text-solar-600" />
                   <div>
                     <h3 className="font-bold text-foreground">Email</h3>
-                    <p className="text-muted-foreground">absaralvee23@gmail.com</p>
+                    <p className="text-muted-foreground">{CompanyBasicInfo.email}</p>
                   </div>
                 </div>
               </Card>
@@ -65,7 +66,7 @@ const Contact = () => {
                   <MapPin className="w-8 h-8 text-solar-600" />
                   <div>
                     <h3 className="font-bold text-foreground">Address</h3>
-                    <p className="text-muted-foreground">Main Street, Baridhara Area<br />Dhaka, Bangladesh</p>
+                    <p className="text-muted-foreground">{CompanyBasicInfo.location}</p>
                   </div>
                 </div>
               </Card>

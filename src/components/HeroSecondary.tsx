@@ -21,7 +21,7 @@ const HeroSecondary = ({paths, title} : {paths: PathProps [] ; title: string}) =
                     className="absolute inset-0 bg-cover bg-center opacity-30"
                     style={{ backgroundImage: `url(${heroImage})` }}
                 />
-                <div className="container mx-auto px-4 relative z-10">
+                <div className="container mx-auto px-4 md:px-32 lg:px-32 relative z-10">
                     <div className="text-white">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4">{title}</h1>
                         <Breadcrumb>

@@ -1,15 +1,13 @@
-import React from 'react'
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+
 import consultationImage from '@/assets/consultation-meeting.jpg';
 
 const CompanyInfo = () => {
     return (
-        <section className="w-full h-full px-16 py-16">
+        <section className="w-full h-full px-4 md:px-32 lg:px-32 py-16">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 className="text-3xl font-bold mb-6 text-foreground">
+                        <h2 className="text-3xl font-bold mb-6 text-solar-900">
                             Discover the Difference in Solar Excellence
                         </h2>
                         <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -22,9 +20,6 @@ const CompanyInfo = () => {
                             solution that meets their requirements. We also facilitate financing options to make the transition to
                             clean energy more affordable for businesses.
                         </p>
-                        <Button variant="solar">
-                            Discover More <ArrowRight className="ml-2 w-4 h-4" />
-                        </Button>
                     </div>
                     <div>
                         <img

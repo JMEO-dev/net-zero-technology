@@ -1,10 +1,9 @@
-import React from 'react'
 import PanelImage from '@/assets/Panel-Installation-picture.jpg';
 import SolutionImage from '@/assets/customized-solution-picture.jpg';
 import Signature from '@/assets/sign-md.png'
 const Speech = () => {
     return (
-        <section className="py-16 px-20 bg-background">
+        <section className=" px-4 md:px-32 lg:px-32 py-16 bg-background">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div>

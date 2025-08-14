@@ -5,8 +5,10 @@ import { Leaders } from "@/data/team"
 const Leadership = () => {
     return (
         <section className="py-16 bg-slate-900 text-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-solar-900/20 to-green-800/20"></div>
-            <div className="container mx-auto px-4 relative z-10">
+            <div className="absolute inset-0 bg-gradient-to-r from-solar-900/20 to-green-800/20">
+            
+            </div>
+            <div className="container mx-auto px-4 md:px-32 lg:px-32 py-16 relative z-10">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold mb-4">Dedicated Experts Driving Solar Innovation</h2>
                     <div className="w-24 h-1 bg-gradient-solar mx-auto"></div>

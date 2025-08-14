@@ -3,7 +3,7 @@ import ConsultancyServicesImage from '@/assets/consultancy-services.png';
 
 const ConsultancyServices = () => {
     return (
-        <section className=" flex flex-col md:flex-row lg:flex-row justify-between p-16">
+        <section className=" flex flex-col md:flex-row lg:flex-row justify-between px-4 md:px-32 lg:px-32">
             <img
                 src={ConsultancyServicesImage}
                 alt="Consultancy Services"

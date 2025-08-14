@@ -1,8 +1,7 @@
 import OAndMImage from '@/assets/operation-and-maintenance.png';
 const OperationAndMaintenance = () => {
   return (
-    <section className=" flex flex-col justify-between items-center gap-6 p-16">
-  
+    <section className=" flex flex-col justify-between items-center gap-6 px-4 md:px-32 lg:px-32 py-16">
       <div className="container flex flex-col justify-center max-w-fit ">
         <h2 className="text-3xl font-bold mb-4 text-solar-900">OPERATIONS AND MAINTENANCE (O&M)</h2>
         <p className="text-muted-foreground leading-relaxed">

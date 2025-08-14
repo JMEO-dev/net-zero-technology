@@ -64,3 +64,17 @@ export const ContactUsPath : PathProps[]  = [
         link: '/about/contact'
     },
 ]
+export const DocsPath : PathProps[]  = [
+    {
+        page: 'Home',
+        link: '/'
+    },
+    {
+        page: 'About Us',
+        link: '/about'
+    },
+    {
+        page: 'Documents',
+        link: '/about/documents'
+    },
+]

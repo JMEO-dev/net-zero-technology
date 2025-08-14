@@ -1,9 +1,5 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { Card } from '@/components/ui/card';
-import { Target, Eye, Lightbulb } from 'lucide-react';
-import heroImage from '@/assets/hero-solar-panels.jpg';
-
 import Partners from '@/components/Partners';
 import CTA from '@/components/CTA';
 import Speech from '@/components/Speech';
@@ -21,7 +17,7 @@ const About = () => {
 
       {/* Hero Section */}
        <HeroSecondary paths={AboutUsPath} title='About Us'/>
-
+      
       {/* Energize Society Section */}
       <Speech/>
 
@@ -42,6 +38,8 @@ const About = () => {
 
       {/* CTA Section */}
       <CTA />
+
+      {/* Footer Section  */}
       <Footer />
     </div>
   );

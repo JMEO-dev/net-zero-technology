@@ -10,7 +10,7 @@ const MissionAndVision = () => {
           className="absolute inset-0 bg-cover bg-center opacity-30 z-0"
           style={{ backgroundImage: `url(${missionVisionImage})` }}
         />
-        <div className="container mx-auto py-40 z-10">
+        <div className="container mx-auto py-40 px-32 z-10">
           <div className="grid grid-rows-1 lg:grid-rows-2 gap-20">
             {/* Mission */}
             <div className="container mx-auto flex items-center justify-center bg-green-400 opacity-100 rounded-lg shadow-lg">
